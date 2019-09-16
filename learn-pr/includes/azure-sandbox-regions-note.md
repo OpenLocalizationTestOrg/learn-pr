@@ -1,0 +1,10 @@
+- westus2
+- southcentralus
+- centralus
+- eastus
+- westeurope
+- southeastasia
+- japaneast
+- brazilsouth
+- australiasoutheast
+- centralindia

@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.data-ai.survey-the-azure-data-platform
+metadata:
+  title: Survey the services on the Azure Data platform
+  description: Learn about Azure technologies that analyze text and images and relational, nonrelational, or streaming data. See how data engineers can choose the technologies that meet their business needs and scale to meet demand securely
+  ms.date: 01/31/2019
+  author: ctesta-oneillmsft
+  ms.author: chris.testaoneill
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Survey the services on the Azure Data platform
+summary: Learn about Azure technologies that analyze text and images and relational, nonrelational, or streaming data. See how data engineers can choose the technologies that meet their business needs and scale to meet demand securely.
+abstract: | 
+  In this module you will:
+  - Contrast structured data with nonstructured data.
+  - Explore common Azure data platform technologies and learn when to use them.
+  - Understand technologies that support the common Azure data platform technologies.
+prerequisites: None
+iconUrl: /learn/achievements/data-ai/survey-the-azure-data-platform-badge.svg
+levels:
+- beginner
+roles:
+- data-engineer
+products:
+- azure
+- azure-storage
+units:
+- learn.data-ai.survey-the-azure-data-platform.introduction
+- learn.data-ai.survey-the-azure-data-platform.structured-vs-non-structured
+- learn.data-ai.survey-the-azure-data-platform.store-data-using-azure-store-account
+- learn.data-ai.survey-the-azure-data-platform.store-data-using-azure-data-lake
+- learn.data-ai.survey-the-azure-data-platform.azure-cosmos-db
+- learn.data-ai.survey-the-azure-data-platform.azure-sql-db
+- learn.data-ai.survey-the-azure-data-platform.azure-sql-dw
+- learn.data-ai.survey-the-azure-data-platform.stream-analytics
+- learn.data-ai.survey-the-azure-data-platform.azure-hdinsight
+- learn.data-ai.survey-the-azure-data-platform.azure-other-data-platform-services
+- learn.data-ai.survey-the-azure-data-platform.summary
+badge:
+  uid: learn.data-ai.survey-the-azure-data-platform.badge

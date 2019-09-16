@@ -1,0 +1,1 @@
+Whether you work with small data or big data, you'll find that the Azure platform provides a rich set of technologies. Use these to analyze data that's relational, nonrelational, streaming, text-based, or image-based. Choose the technologies that meet your business needs. Then scale your solutions to meet demands securely.
