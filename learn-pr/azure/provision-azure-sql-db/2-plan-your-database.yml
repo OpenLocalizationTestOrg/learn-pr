@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.provision-azure-sql-db.2-plan-your-database
+title: Plan your Azure SQL database
+metadata:
+  title: Plan your Azure SQL database
+  description: Plan your Azure SQL database
+  ms.date: 09/24/2018
+  author: rmcmurray
+  ms.author: robmcm
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-plan-your-database.md)]

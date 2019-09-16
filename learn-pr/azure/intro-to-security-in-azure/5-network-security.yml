@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.introduction-to-security.5-network-security
+title: Protect your network
+metadata:
+  title: Protect your network
+  description: In this unit, we'll discuss how to secure your network infrastructure.
+  ms.date: 12/26/2018
+  author: adrianstevens
+  ms.author: adsteven
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-network-security.md)]

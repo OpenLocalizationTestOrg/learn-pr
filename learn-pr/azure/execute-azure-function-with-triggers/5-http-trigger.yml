@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.execute-azure-function-with-triggers.5-http-trigger
+title: Execute an Azure function with an HTTP request 
+metadata:
+  title: Execute an Azure function with an HTTP request
+  description: Execute an Azure function with an HTTP request
+  ms.date: 09/24/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+durationInMinutes: 10
+content: |
+  [!include[](includes/5-http-trigger.md)]

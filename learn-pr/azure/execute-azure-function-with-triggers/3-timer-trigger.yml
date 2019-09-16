@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.execute-azure-function-with-triggers.3-timer-trigger
+title: Run an Azure Function on a schedule
+metadata:
+  title: Run an Azure Function on a schedule
+  description: Run function on a schedule
+  ms.date: 09/24/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-timer-trigger.md)]

@@ -1,0 +1,32 @@
+### YamlMime:ModuleUnit
+uid: learn.add-and-size-disks-in-azure-virtual-machines.3-exercise-add-data-disks-to-azure-virtual-machines
+title: Exercise - Add a data disk to a VM
+metadata:
+  title: Exercise - Add a data disk to a VM
+  description: Exercise - Add a data disk to a VM
+  ms.date: 09/24/2018
+  author: cwatson-cat
+  ms.author: cwatson
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+interactive: bash
+azureSandbox: true
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-exercise-add-data-disks-to-azure-virtual-machines.md)]
+#tasks:
+#- action: exists
+#  environment: azure
+#  azure:
+#    resource:
+#      type: "Microsoft.Compute/virtualMachines"
+#  hint: "Run the `az vm create` command as shown to create your virtual machine."
+# TODO: See https://github.com/MicrosoftDocs/learn-pr/issues/2816
+# - action: exists
+#   environment: azure
+#   azure:
+#     resource:
+#       type: "Microsoft.Compute/virtualMachines/extensions"
+#       name: customScript
+#   hint: "Run the `az vm extension set` command as shown to run the script on your virtual machine."

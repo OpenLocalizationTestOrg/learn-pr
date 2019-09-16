@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.choose-storage-approach-in-azure.6-summary
+metadata:
+  title: Summary
+  description: Summary
+  ms.date: 09/24/2018
+  author: rmcmurray
+  ms.author: robmcm
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+title: Summary
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-summary.md)]
