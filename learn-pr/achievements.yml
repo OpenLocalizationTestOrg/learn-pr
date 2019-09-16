@@ -1,0 +1,17 @@
+### YamlMime:Achievements
+achievements:
+# - uid: learn.module-template.badge #sample achievement badge for module template.
+#  type: badge
+#  title: Module template
+#  summary: Module template badge.
+#  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.make-your-virtual-machines-highly-available.badge
+  type: badge
+  title: Make your virtual machines highly available
+  summary: Make your virtual machines highly available
+  iconUrl: /learn/achievements/make-your-virtual-machines-highly-available.svg
+- uid: learn.scale-and-size-virtual-machines.badge
+  type: badge
+  title: Scale and size Virtual Machines in Azure
+  summary: Scale and size Virtual Machines in Azure
+  iconUrl: /learn/achievements/scale-and-size-virtual-machines.svg
