@@ -1,0 +1,36 @@
+### YamlMime:ModuleUnit
+uid: learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check
+title: Knowledge check
+metadata:
+  title: Summary and clean-up
+  description: Knowledge check
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+durationInMinutes: 2
+quiz:
+    title: Knowledge check
+    questions:
+    - content: "How do you bind your function to Twilio to send SMS messages?"
+      choices:
+      - content: "By returning the SMS messages as the return value of the Function"
+        isCorrect: false
+      - content: "A function parameter"
+        isCorrect: true
+        explanation: "SMS messages are added to a collection passed to the function as a parameter decorated with the `[TwilioSms]` attribute. The Function's runtime will send these messages to Twilio once the function returns."
+      - content: "Direct call to the Twilio API"
+        isCorrect: false
+
+    - content: "Where do you define your Twilio account SID and auth token when running your function locally?"
+      choices:
+      - content: "In the `local.settings.json` file."
+        isCorrect: true
+        explanation: "The `local.settings.json` file is used to store local settings that are only used when running locally, not when published to Azure. Be careful to not check this into source code control if it contains private keys and your repo is public."
+      - content: "In the `[TwilioSms]` attribute"
+        isCorrect: false
+      - content: "Application settings published to Azure"
+        isCorrect: false
