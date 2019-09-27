@@ -22,7 +22,7 @@ Drawbacks:
 * More complex, harder to maintain.
 * Cannot use AD security groups to manage role assignments.
 * Stores user information in the application database, where it can get out of sync with the tenant's AD directory, as users are added or removed.
-[![Create a single type](./image/1.jpg#lightbox)
+[![1](./image/1.jpg)](./image/1.jpg#lightbox)
 
 [1]: ./image/1.jpg
 
