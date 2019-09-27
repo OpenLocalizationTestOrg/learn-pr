@@ -15,13 +15,14 @@ pnp.series.next: File
 
 A single VDC implementation can scale up to large number of spokes, although, as with every IT system, there are platform limits. The hub deployment is bound to a specific Azure subscription, which has restrictions and limits (for example, a maximum number of VNet peerings; see [Azure subscription and service limits, quotas, and constraints][limits] for details). In cases where limits may be an issue, the architecture can scale up further by extending the model from a single hub-spokes to a cluster of hub and spokes. Multiple hubs in one or more Azure regions can be interconnected using VNet Peering, ExpressRoute, Virtual WAN, or site-to-site VPN.
 
+[![**Next**][](File.md)]
+
 Drawbacks:
 
 * More complex, harder to maintain.
 * Cannot use AD security groups to manage role assignments.
 * Stores user information in the application database, where it can get out of sync with the tenant's AD directory, as users are added or removed.
 
-[![**Next**][](File.md)]
 
 [1]: ./image/1.jpg
 
