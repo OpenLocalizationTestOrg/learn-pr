@@ -26,5 +26,5 @@ Drawbacks:
 
 [1]: ./image/1.jpg
 
-[File]: ./File.md
+[File]: File.md
 [limits]: ./ChildFile/1.md
