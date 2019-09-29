@@ -10,7 +10,7 @@ pnp.series.title: Manage Identity in Multitenant Applications
 pnp.series.prev: signup
 pnp.series.next: File
 ---
-[!includes[Test](./ChildFile/1.md)]
+[!includes [Test](./ChildFile/1.md)]
 
 [![1]][1]
 
