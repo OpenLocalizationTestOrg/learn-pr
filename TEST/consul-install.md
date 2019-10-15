@@ -105,6 +105,7 @@ helm install -f consul-values.yaml --name consul --namespace consul .
 > 
 > * Create `helm-rbac.yaml` and fill with the following yaml content.
 >      ```
+>       ---
 >       apiVersion: v1
 >       kind: ServiceAccount
 >       metadata:
@@ -119,7 +120,7 @@ helm install -f consul-values.yaml --name consul --namespace consul .
 >         apiGroup: rbac.authorization.k8s.io
 >         kind: ClusterRole
 >         name: cluster-admin
->       subjects:
+>      subjects:
 >         - kind: ServiceAccount
 >           name: tiller
 >           namespace: kube-system
