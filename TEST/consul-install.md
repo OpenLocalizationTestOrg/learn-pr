@@ -104,8 +104,7 @@ helm install -f consul-values.yaml --name consul --namespace consul .
 >     ```
 > 
 > * Create `helm-rbac.yaml` and fill with the following yaml content.
->      ```
->       ---
+>      ``` output
 >       apiVersion: v1
 >       kind: ServiceAccount
 >       metadata:
