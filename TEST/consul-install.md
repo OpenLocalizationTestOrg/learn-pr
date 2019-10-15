@@ -104,7 +104,7 @@ helm install -f consul-values.yaml --name consul --namespace consul .
 >     ```
 > 
 > * Create `helm-rbac.yaml` and fill with the following yaml content.
->       ```
+>      ```
 >       apiVersion: v1
 >       kind: ServiceAccount
 >       metadata:
@@ -123,7 +123,7 @@ helm install -f consul-values.yaml --name consul --namespace consul .
 >         - kind: ServiceAccount
 >           name: tiller
 >           namespace: kube-system
->       ```
+>      ```
 >
 > * Run `kubectl apply` cmdlet to create the service account and role binding:
 >     ```console
